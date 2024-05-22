@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class GameOverMenu : MonoBehaviour
 {
@@ -13,7 +14,13 @@ public class GameOverMenu : MonoBehaviour
     }
     public void Home()
     {
+            PhotonNetwork.LeaveRoom(true);
+            PhotonNetwork.LeaveLobby();
+            PhotonNetwork.Disconnect();
+            PhotonNetwork.SendAllOutgoingCommands();
+
         SceneManager.LoadScene("Menu");
+          
         Time.timeScale = 1;
     }
     public void Restart()
@@ -21,4 +28,5 @@ public class GameOverMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
+
 }

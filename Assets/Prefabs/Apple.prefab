@@ -107,5 +107,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1140198357770794095, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+    - {fileID: -873022411392382532, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+    - {fileID: -8795759016532940998, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+--- !u!1 &1345022896480124042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8457310349337905135, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 7490644818628164453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2191866410232006519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763740054025600018, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 7490644818628164453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2191866410311636099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763740054113742822, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 7490644818628164453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4018003576942108093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345022896480124042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b08cbe8beb8eb4280a7535cb1136be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whole: {fileID: 2191866410232006519}
+  sliced: {fileID: 2191866410311636099}
+  points: 1

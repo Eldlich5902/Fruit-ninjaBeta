@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -873022411392382532, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+      propertyPath: ObservedComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 164278933160919736, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -119,5 +123,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orange
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1140198357770794095, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+    - {fileID: -8795759016532940998, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+    - {fileID: -873022411392382532, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+--- !u!1 &6161171722280899850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8457310349337905135, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 2368479978854109925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6431572205988458231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763740054025600018, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 2368479978854109925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6431572205908704515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763740054113742822, guid: 25504251438a6c1458bc142c3170ac68, type: 3}
+  m_PrefabInstance: {fileID: 2368479978854109925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &597144609030320551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6161171722280899850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b08cbe8beb8eb4280a7535cb1136be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whole: {fileID: 6431572205988458231}
+  sliced: {fileID: 6431572205908704515}
+  points: 1
